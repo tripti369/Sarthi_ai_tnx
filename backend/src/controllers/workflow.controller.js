@@ -4,7 +4,7 @@ import { ApiResponse } from "../utils/ApiResponse.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 
 const AGENT_MICROSERVICE_URL =
-  process.env.AGENT_MICROSERVICE_URL || "http://127.0.0.1:8000/api/agents/run";
+  "https://sarthi-ai-tnx-agents.onrender.com/api/agents/run";
 
 /**
  * @desc    Execute multi-agent workflow query & save report
